@@ -1,0 +1,21 @@
+{% extends 'base-plain.html.twig' %}
+
+{% block pagename %}Bevestinging van uw uitschrijven{% endblock %}
+{% block body %}
+    <div class="row">
+        <div class="col-sm-12">
+            Klik op bevestigen om uw zelf uit te schrijven van de email lijst
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <a href="{{ path('unsubscribe_confirm', {'email' : email}) }}">
+                <button class="btn btn-success" name="Bevestigen">Bevestigen</button>
+            </a>
+        </div>
+
+    </div>
+
+{% endblock %}
