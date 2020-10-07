@@ -1,4 +1,4 @@
-# RHFinschrijven
+# RHF inschrijf formulier voor de koopjeshoek
 In dit project het inschrijf formulier voor Royal Health Foam gemaakt door Kenneth en Nathan
 
 # Visie
